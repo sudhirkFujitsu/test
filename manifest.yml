@@ -1,0 +1,8 @@
+---
+applications:
+- name: static-demo
+  memory: 256M
+  instances: 1
+  # Add your name/initials to make the hostname unique
+  host: static-demo-xxx-sudhirk85
+  buildpack: https://github.com/sudhirkFujitsu/staticfile-buildpack.git
